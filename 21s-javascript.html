@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color: powderblue;">
+        <h2> What Can JavaScript Do Example 1</h2>
+        <p id ="demo">Javascript can change HTML content</p>
+        <button type='button'
+        onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>CLICK ME!!</button>
+        <h2> What Can JavaScript Do Example 2</h2>
+        <p>JavaScript can change HTML attribute values</p>
+        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+        <button
+        onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light?</button>
+        <img id="myImage" src="pic_bulboff.gif" style="width: 100px">
+        <button
+        onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Tur the light off? </button>
+        <h2> What Can JavaScript Do Example 3</h2>
+        <p id = "demo2">JavaScript can change the style of an HTML element</p>
+        <button type="button"
+        onclick="document.getElementById('demo2').style.fontSize='35px'">Click ME!</button>
+        <h2> What Can JavaScript Do Example 4</h2>
+        <p id = "demo4">JavaScript can change the style of an HTML element</p>
+        <button type="button"
+        onclick="document.getElementById('demo4').style.display='none'">Click ME!</button>
+        <h2> What Can JavaScript Do Example 5</h2>
+        <h3>JavaScript can show hidden elements</h3>
+        <p id = "demo5"style='display:none'>Hello JavaScript World!</p>
+        <button type="button"
+        onclick="document.getElementById('demo5').style.display='block'">Click ME!</button>
+        <h2> What Can JavaScript Do Example 6</h2>
+        <p id = 'demo7'></p>
+        <script>
+        document.getElementById('demo7').innerHTML="HelloWorld!"
+        </script>
+        <h2> What Can JavaScript Do Example 7</h2>
+    </body>
+</html>
